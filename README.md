@@ -1,0 +1,1 @@
+The code utilizes ESP32-PCIO-D4 microcontroller to control MPU6050 sensor for angle measurement and implements data transmission via BLE Bluetooth. Arduino is used as the IDE, where the "BLE-main" file serves as the receiving module connected to the host computer to receive data transmitted by three measurement units controlled by "BLE-Kalman", "BLE-Kalman2", and "BLE-Kalman3".
